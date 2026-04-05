@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: white; /* dark background for contrast */
+  background: rgb(13, 1, 54); /* dark background for contrast */
   font-family: Arial, sans-serif;
 }
 
@@ -11,6 +11,7 @@ body {
   background: black; /* very dark red */
   padding: 20px;
   border-radius: 12px;
+  border: 1px solid white;
  
   display: flex;
   flex-direction: column; /* stack children vertically */

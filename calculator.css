@@ -5,6 +5,7 @@ body {
   height: 100vh;
   background: rgb(13, 1, 54); /* dark background for contrast */
   font-family: Arial, sans-serif;
+  padding: 40px;
 }
 
 .calculator {
@@ -80,3 +81,29 @@ body {
 .clear:hover {
   background: #cc0000;
 }
+.delete, .equal {
+  grid-column: span 2;   /* each takes half of the row */
+  height: 60px;
+}
+
+/* Delete button styling */
+.delete {
+  background: #444;   /* neutral dark gray */
+  color: #fff;
+  border: 1px solid white;
+}
+
+.delete:hover {
+  background: #666;
+}
+
+/* Equal button styling */
+.equal {
+  background: rgb(166, 120, 3);
+  border: 1px solid white;
+}
+
+.equal:hover {
+  background: gray;
+}
+
